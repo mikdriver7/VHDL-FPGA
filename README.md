@@ -16,13 +16,13 @@ This repository contains projects and labs developed for COEN 313 - Digital Logi
 - **Tools**: ModelSim for simulation, Vivado for synthesis and analysis of logic minimization.
 - **Key Findings**: Both design styles synthesized to identical hardware after Vivado optimization.
 
-###Lab 3: Combinational Process for Number Conversion
+### Lab 3: Combinational Process for Number Conversion
 - **Objective**: Design combinational processes to convert Sign-Magnitude to Two's Complement representation.
 - **Design**: Process-based conversion algorithm using variables vs signals, exploration of sensitivity lists.
 - **Tools**: ModelSim with vcom -check_synthesis, Vivado for implementation.
 - **Key Findings**: Demonstrated importance of variables vs signals in processes and sensitivity list requirements.
 
-###Lab 4: Clocked Processes and Shift Register with Max/Min Detection
+### Lab 4: Clocked Processes and Shift Register with Max/Min Detection
 - **Objective**: Design clocked VHDL processes to implement a shift register with maximum and minimum value detection.
 - **Design**: 4-stage shift register with real-time max/min detection logic, synchronous reset, and output selection.
 - **Tools**: ModelSim with DO file simulation, Vivado for synthesis and implementation on Nexys A7-100T.
